@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pedida</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+    </style>
+    <link rel="stylesheet" href="prueba.css" </head>
+
+<body>
+    <div style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 55px ;">¿Te gustaria
+        salir a por shusi?</div>
+    <div style="text-align: center;">
+        <img decoding="async" src="descarga.jpg" alt="error zetzi">
+    </div>
+    <br><br>
+
+    <div class="botones">
+        <button onclick="mostrarMensaje1()">Sí</button>
+        <button onclick="mostrarMensaje2()">No</button>
+        <p id="mensaje"></p>
+
+    </div>
+
+
+
+    <script>
+        function mostrarMensaje1() {
+            document.getElementById("mensaje").innerText = "¡WIIIIIIIIIII! :D";
+        }
+
+        function mostrarMensaje2() {
+            document.getElementById("mensaje").innerText = "jo.... voy a llamar a cuernitos pa que te coma entera >:( ajajajsjasj";
+        }
+    </script>
+
+</body>
+
+</html>
